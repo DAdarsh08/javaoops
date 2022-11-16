@@ -1,4 +1,4 @@
-package pacakage1;
+package pacakage1;//About packages
 
 public class A {
     public static void fstatic()

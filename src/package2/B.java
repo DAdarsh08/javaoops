@@ -31,7 +31,7 @@ public class B {
   public static void main(String[] args) {
       A a=new A();
       a.finstance();
-      fstatic();//we used static members without the class name;
+      fstatic();//we used static members without the class names;
 
 
   }
