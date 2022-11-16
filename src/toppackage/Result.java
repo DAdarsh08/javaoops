@@ -1,3 +1,5 @@
+package toppackage;
+
 public class Result {
     int rollno, physics, chemistry, maths;
     String name;
@@ -14,10 +16,10 @@ public class Result {
 
     public String toString() {
         if (physics < 40 || maths < 40 || chemistry < 40) {
-            return String.format("Name=%s,rollNo=%s,physics=%s,chemistry=%s,maths=%s,Result=%s", name, rollno, physics, chemistry, maths, "fail");
+            return String.format("Name=%s,rollNo=%s,physics=%s,chemistry=%s,maths=%s,toppackage.Result=%s", name, rollno, physics, chemistry, maths, "fail");
 
         } else {
-            return String.format("Name=%s,rollNo=%s,physics=%s,chemistry=%s,maths=%s,Result=%s", name, rollno, physics, chemistry, maths, "pass");
+            return String.format("Name=%s,rollNo=%s,physics=%s,chemistry=%s,maths=%s,toppackage.Result=%s", name, rollno, physics, chemistry, maths, "pass");
         }
     }
 

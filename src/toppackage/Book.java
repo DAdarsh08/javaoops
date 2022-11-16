@@ -1,3 +1,4 @@
+package toppackage;
 
 public class Book {
     String bookname,subject;
@@ -10,7 +11,7 @@ public class Book {
     }
     public void display()
     {
-        System.out.printf("Book Name=%s,Subject=%s,Price=%d\n",bookname,subject,price);
+        System.out.printf("toppackage.Book Name=%s,Subject=%s,Price=%d\n",bookname,subject,price);
     }
 
     public static void main(String[] args) {

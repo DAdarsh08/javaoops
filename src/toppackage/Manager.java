@@ -1,9 +1,11 @@
+package toppackage;
+
 public class Manager extends Employee{
     String department;
     Employee secretary;
     public Manager(String name, String address,int age , int salary,Employee sec,String d)
     {
-        super(name, address,age,"Manager",salary);
+        super(name, address,age,"toppackage.Manager",salary);
         secretary=sec;
         department=d;
     }

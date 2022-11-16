@@ -1,3 +1,5 @@
+package toppackage;
+
 public class Triangle1 {
     int a,b,c;
     public Triangle1(int a, int b, int c)
@@ -24,6 +26,9 @@ public class Triangle1 {
         System.out.println(x);
         System.out.println(t1==x);
 
+
     }
+
+
 
 }

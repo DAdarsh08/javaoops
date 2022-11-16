@@ -1,3 +1,5 @@
+package toppackage;
+
 public class Trinangle {
     int a,b,c;
     public Trinangle(int a,int b,int c)

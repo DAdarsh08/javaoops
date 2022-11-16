@@ -1,4 +1,4 @@
-package OOPS;
+package oops;
 
 public class Square extends Rectangle {
     public Square() {
