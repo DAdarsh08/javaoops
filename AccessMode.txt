@@ -1,0 +1,13 @@
+Try accessing from a class B in the same package.
+package private protected public
+Accessibility Accessible Not Accessible Accessible Accessible
+Try accessing from a class B that extends A in the same package.
+package private protected public
+Accessibility Accessible Not Accessible Accessible Accessible
+Try accessing from a class B in a different package.
+package private protected public
+Accessibility Not Accessible Not Accessible Not Accessible Accessible
+Try accessing from a class B that extends A in a different package.
+package private protected public
+Accessibility Not Accessible Not Accessible Accessible Accessible
+Package visibility is the default and in many ways this is unfortunate. The encapsulation breaks 
